@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('font/AvantGardeCE-Demi.eot');
+    src: url('font/AvantGardeCE-Demi.eot?#iefix') format('embedded-opentype'),
+        url('font/AvantGardeCE-Demi.woff2') format('woff2'),
+        url('font/AvantGardeCE-Demi.woff') format('woff'),
+        url('font/AvantGardeCE-Demi.ttf') format('truetype'),
+        url('font/AvantGardeCE-Demi.svg#AvantGardeCE-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('font/ITCAvantGardeStd-Bold.eot');
+    src: url('font/ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/ITCAvantGardeStd-Bold.woff2') format('woff2'),
+        url('font/ITCAvantGardeStd-Bold.woff') format('woff'),
+        url('font/ITCAvantGardeStd-Bold.ttf') format('truetype'),
+        url('font/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+  
+:root{
+    --primary-color: #15263e;
+    --font-color: #ffffff;
+}
+.header-area{    
+    background-color: var(--primary-color);
+    background-size: cover;    
+}
+.jhon-banner{
+    background-image: url(img/jhon-background.jpg);
+}
+.primary-menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.primary-menu ul li a {
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+
