@@ -10,6 +10,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'ITC Avant Garde Gothic Std';
     src: url('font/ITCAvantGardeStd-Bold.eot');
@@ -22,27 +23,80 @@
     font-style: normal;
     font-display: swap;
 }
-  
-:root{
+
+:root {
     --primary-color: #15263e;
     --font-color: #ffffff;
+    --secondary-color1:#993399;
+    --secondary-color2:#ff0066;
+
 }
-.header-area{    
+
+.jhon-text-color {
+    background-image: -moz-linear-gradient(49deg, rgb(219, 219, 219) 0%, rgb(41, 10, 89) 0%, rgb(162, 26, 240) 0%, rgb(255, 0, 114) 100%);
+    background-image: -webkit-linear-gradient(49deg, rgb(219, 219, 219) 0%, rgb(41, 10, 89) 0%, rgb(162, 26, 240) 0%, rgb(255, 0, 114) 100%);
+    background-image: -ms-linear-gradient(49deg, rgb(219, 219, 219) 0%, rgb(41, 10, 89) 0%, rgb(162, 26, 240) 0%, rgb(255, 0, 114) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.jhon-gradian-bg {
+    background-image: -moz-linear-gradient(49deg, rgb(219, 219, 219) 0%, rgb(41, 10, 89) 0%, rgb(162, 26, 240) 0%, rgb(255, 0, 114) 100%);
+    background-image: -webkit-linear-gradient(49deg, rgb(219, 219, 219) 0%, rgb(41, 10, 89) 0%, rgb(162, 26, 240) 0%, rgb(255, 0, 114) 100%);
+    background-image: -ms-linear-gradient(49deg, rgb(219, 219, 219) 0%, rgb(41, 10, 89) 0%, rgb(162, 26, 240) 0%, rgb(255, 0, 114) 100%);
+}
+
+.header-area {
     background-color: var(--primary-color);
-    background-size: cover;    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.jhon-banner{
-    background-image: url(img/jhon-background.jpg);
-}
-.primary-menu{
+
+
+
+.primary-menu {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .primary-menu ul li a {
-    font-family: 'ITC Avant Garde Gothic Std';
-    font-weight: 700;
-    font-size: 36px;
+    font-family: 'ITC Avant Garde Gothic';
+    font-weight: 500;
+    font-size: 16px;
 
 }
 
+.primary-menu ul li a:before {
+    content: '-';
+    margin-right: 25px;
+}
 
+.primary-menu ul li:first-child a:before {
+    display: none;
+}
+
+.jhon-banner {
+    background-image: url(img/jhon-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -100px;
+}
+.jhon-banner-area h1{
+    font-size: 200px;
+    font-family: 'ITC Avant Garde Gothic';
+}
+p.jhon-subtitle{
+    font-size: 120px;
+    font-family: 'ITC Avant Garde Gothic';
+    margin-top: -80px;
+    letter-spacing: 78px;
+    margin-bottom: -32px;
+}
+.jhon-banner-area h3{
+    font-size: 100px;
+    font-family: 'ITC Avant Garde Gothic';
+    margin-bottom: -35px;
+}
+.jhon-bio{
+    font-size: 30px;
+    font-family: 'ITC Avant Garde Gothic';
+}
