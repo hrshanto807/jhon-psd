@@ -23,13 +23,37 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'AvantGarde CE';
+    src: url('font/AvantGardeCE-Book.eot');
+    src: url('Afont/vantGardeCE-Book.eot?#iefix') format('embedded-opentype'),
+        url('font/AvantGardeCE-Book.woff2') format('woff2'),
+        url('font/AvantGardeCE-Book.woff') format('woff'),
+        url('font/AvantGardeCE-Book.ttf') format('truetype'),
+        url('font/AvantGardeCE-Book.svg#AvantGardeCE-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{ 
+    color: #494949;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'AvantGarde CE';
+    letter-spacing: 2px; 
+}
+
+
 
 :root {
     --primary-color: #15263e;
     --font-color: #ffffff;
-    --secondary-color1:#993399;
+    --secondary-color1:#b817e7;
     --secondary-color2:#ff0066;
 
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'ITC Avant Garde Gothic';
 }
 
 .jhon-text-color {
@@ -79,10 +103,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center -100px;
+    line-height: normal;
 }
 .jhon-banner-area h1{
     font-size: 200px;
-    font-family: 'ITC Avant Garde Gothic';
 }
 p.jhon-subtitle{
     font-size: 120px;
@@ -90,13 +114,21 @@ p.jhon-subtitle{
     margin-top: -80px;
     letter-spacing: 78px;
     margin-bottom: -32px;
+    
 }
 .jhon-banner-area h3{
-    font-size: 100px;
-    font-family: 'ITC Avant Garde Gothic';
+    font-size: 100px;    
     margin-bottom: -35px;
 }
-.jhon-bio{
-    font-size: 30px;
-    font-family: 'ITC Avant Garde Gothic';
+.jhon-about-left h3{
+    color: var(--secondary-color1);
 }
+.single-progress{
+    color: #4d4d4d;
+}
+/* .progress{
+    background-color: var(--secondary-color2);
+}
+.progress-bar{
+    background-color: var(--secondary-color1);
+} */
