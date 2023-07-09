@@ -1,40 +1,4 @@
-@font-face {
-    font-family: 'ITC Avant Garde Gothic';
-    src: url('font/AvantGardeCE-Demi.eot');
-    src: url('font/AvantGardeCE-Demi.eot?#iefix') format('embedded-opentype'),
-        url('font/AvantGardeCE-Demi.woff2') format('woff2'),
-        url('font/AvantGardeCE-Demi.woff') format('woff'),
-        url('font/AvantGardeCE-Demi.ttf') format('truetype'),
-        url('font/AvantGardeCE-Demi.svg#AvantGardeCE-Demi') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'ITC Avant Garde Gothic Std';
-    src: url('font/ITCAvantGardeStd-Bold.eot');
-    src: url('font/ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
-        url('font/ITCAvantGardeStd-Bold.woff2') format('woff2'),
-        url('font/ITCAvantGardeStd-Bold.woff') format('woff'),
-        url('font/ITCAvantGardeStd-Bold.ttf') format('truetype'),
-        url('font/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'AvantGarde CE';
-    src: url('font/AvantGardeCE-Book.eot');
-    src: url('Afont/vantGardeCE-Book.eot?#iefix') format('embedded-opentype'),
-        url('font/AvantGardeCE-Book.woff2') format('woff2'),
-        url('font/AvantGardeCE-Book.woff') format('woff'),
-        url('font/AvantGardeCE-Book.ttf') format('truetype'),
-        url('font/AvantGardeCE-Book.svg#AvantGardeCE-Book') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 body{ 
     color: #494949;
     line-height: 30px;
@@ -42,9 +6,6 @@ body{
     font-family: 'AvantGarde CE';
     letter-spacing: 2px; 
 }
-
-
-
 :root {
     --primary-color: #15263e;
     --font-color: #ffffff;
@@ -126,9 +87,51 @@ p.jhon-subtitle{
 .single-progress{
     color: #4d4d4d;
 }
-/* .progress{
-    background-color: var(--secondary-color2);
+.jhon-single-contact-icon i{
+    background-color: var(--primary-color);
+    width: 80px;
+    height: 80px;
 }
-.progress-bar{
-    background-color: var(--secondary-color1);
-} */
+.jhon-single-contact-content h2{
+    color: #4d4d4d;
+}
+.jhion-section-heading h2{
+    color: var(--primary-color);
+}
+.jhon-single-service i{    
+    width: 100px;
+    height: 100px;
+}
+.jhon-testimonial-area{
+    background-image: url(img/testi-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.jhon-portifollio-conent-left ul li a {
+    font-family: 'ITC Avant Garde Gothic';
+}
+.testimonial-content-right img{
+    width: 100px;
+    height: 100px;
+}
+.right-quate {
+    margin-left: 650px;
+  }
+.carousel-control-prev-icon {
+    margin-left: -300px;
+  }
+  .carousel-control-next-icon {
+    margin-right: -300px;
+  }
+  .jhon-contact-us-area{
+    background-image: url(img/fotter-bg.jpg);
+    background-repeat: no-repeat;    
+  }
+.jhon-contact-us{
+    background-color: var(--primary-color);
+    width: 1170px;
+    height: 580px;
+    margin-left: 180px;
+}
+
+    
