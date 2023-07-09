@@ -123,15 +123,43 @@ p.jhon-subtitle{
   .carousel-control-next-icon {
     margin-right: -300px;
   }
+  .jhon-before{
+    position: relative;
+    padding-left: 30px;
+  }
+  .jhon-before:before{
+    content: '';
+    height: 52px;
+    width: 10px;
+    background-color: #ffffff;
+    top: 6px;
+    left: 0;
+    position: absolute;
+  }
+  .jhon-affter{
+    position: relative;
+    padding-right: 30px;
+  }
+  .jhon-affter::after{
+    content: '';
+    height: 52px;
+    width: 10px;
+    background-color: #ffffff;
+    top: 6px;
+    right: 0;
+    position: absolute;
+  }
   .jhon-contact-us-area{
     background-image: url(img/fotter-bg.jpg);
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;    
   }
 .jhon-contact-us{
     background-color: var(--primary-color);
     width: 1170px;
     height: 580px;
-    margin-left: 180px;
+    margin: 0 auto;    
 }
 
     
