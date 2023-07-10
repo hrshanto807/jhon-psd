@@ -1,0 +1,65 @@
+@media only screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    .button-color{
+        background-color: white;
+    }
+    .jhon-banner{
+        background-position: center 0;
+    }
+    .jhon-banner-area h1 {
+        font-size: 75px;
+      }
+      p.jhon-subtitle{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 32px;
+        letter-spacing: 30px;       
+      }
+      .jhon-banner-area h3{           
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+    .jhon-about-us{
+        
+    }
+    .jhon-single-service i{
+        font-size: 50px;
+    }
+    .right-quate {
+        margin-left:313px;
+    }
+    .carousel-control-prev-icon {
+        margin-left: 0;
+      }
+      .carousel-control-next-icon {
+        margin-right: 0;
+      }
+      .jhon-contact-us{
+        
+        width: 100%;
+        height: 100%;
+           
+    }
+    .jhon-portifollio-middle img {
+        width: 100%;
+    }
+    .jhon-portifollio-right img{
+        width: 100%;
+    }
+    .jhon-before:before{
+        display: none;
+    }
+    .jhon-affter:after{
+        display: none;
+    }
+    .jhon-single-blog img{
+        width: 100%;
+    }
+    .jhon-single-blog h3,p{
+        text-align: center;
+    }
+
+     
+}
